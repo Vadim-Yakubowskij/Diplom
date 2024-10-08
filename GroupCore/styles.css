@@ -1,17 +1,24 @@
 .head {   
     background-color: #687864;    
-    border-radius: 50px;
+    border-radius: 0px 0px 30px 30px;
     background-position: center center;      
     background-repeat: no-repeat;      
     background-attachment: fixed;      
     background-size: cover;      
-    margin: 1%;
     display: flex;
+    width: 100%;
+    position: fixed;
     flex-direction: row;
-    box-shadow: 3px 3px 5px 4px #888;
+    justify-content: left;
+}
+main{
+    padding-top: 8%;
+}
+body{
+    background-color: #6e776c;
 }
 .name{
-    padding-top: 2.3%;
+    padding-top: 2%;
 }
 .buttnsInHeader{
     margin: 1%;
