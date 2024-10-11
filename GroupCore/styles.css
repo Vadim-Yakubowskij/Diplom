@@ -1,5 +1,5 @@
 .head {   
-    background-color: #2d6a4f;    
+    background-color: #edf2f4;    
     background-position: center center;      
     background-repeat: no-repeat;      
     background-attachment: fixed;      
@@ -54,16 +54,40 @@ body{
     border-bottom-width: 1px;
 }
 .main{
-    background-color: #2d6a4f;
-    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    background-color: #edf2f4;
+    margin-top: 6%;
+    flex-direction: column;
 }
 .main_info{
-    margin: 10%;
-    padding: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 7%;
     display: flex;
     flex-direction: row;
-    background-color: #40916c;
+    justify-content: center;
 }
 .info{
-    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    font-size: 25px;
+    margin-right: 10%;
+}
+.foto_info_jpg{
+    border-radius: 20px;
+}
+.foto_avtor{
+    border-radius: 100%;
+}
+.quote_div{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.avtor{
+    flex-direction: column;
 }
