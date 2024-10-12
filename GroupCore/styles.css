@@ -14,6 +14,8 @@ body {
 
 }
 main{
+    display: flex;
+    flex-direction: row-reverse;
     padding-top: 8%;
 }
 body{
@@ -58,20 +60,20 @@ body{
 }
 .main{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     background-color: #edf2f4;
-    margin-top: 6%;
+    margin-top: 4%;
     flex-direction: column;
 }
 .main_info{
     border-radius: 20px;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-top: 5%;
     padding: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
 }
 .info{
     font-family:'Courier New', Courier, monospace;
@@ -91,11 +93,11 @@ body{
     width: 70%;
     margin-top: 5%;
     margin-right: 10%;
-    margin-left: 15.7%;
+    margin-left: 0%;
     padding: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
 }
 .avtor{
     flex-direction: column;
@@ -110,14 +112,48 @@ body{
     width: 70%;
     margin-top: 5%;
     margin-right: 10%;
-    margin-left: 15.7%;
+    margin-left: 0%;
     padding: 3%;
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: start;
     font-family:'Courier New', Courier, monospace;
 }
 .main_base_foto{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+}
+.tour_div{
+    justify-content: space-between;
+    margin-bottom: 5%;
+    position: fixed;
+}
+.main_info_style{
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+.info_style{
+    font-family:'Courier New', Courier, monospace;
+    width: 40%;
+    font-size: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+hr.divider { 
+    margin: 0em;
+    border-width: 1px;
+    width: 67%;
+  }
+.info_finaly{
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+    font-size: 35px;
+    margin-right: 10%;
+    margin-top: 5%;
 }
