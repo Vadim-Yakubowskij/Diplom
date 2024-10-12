@@ -1,3 +1,6 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+  }
 .head {   
     background-color: #edf2f4;    
     background-position: center center;      
@@ -14,7 +17,7 @@ main{
     padding-top: 8%;
 }
 body{
-    background-color: #808080;
+    background-color: #ffffff;
 }
 .name{
     display: flex;
@@ -61,15 +64,17 @@ body{
     flex-direction: column;
 }
 .main_info{
+    border-radius: 20px;
     margin-right: 10%;
     margin-left: 10%;
-    padding: 7%;
+    margin-top: 5%;
+    padding: 3%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .info{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     width: 40%;
     font-size: 25px;
     margin-right: 10%;
@@ -81,13 +86,38 @@ body{
     border-radius: 100%;
 }
 .quote_div{
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 20px;
+    width: 70%;
+    margin-top: 5%;
     margin-right: 10%;
-    margin-left: 10%;
-    padding: 7%;
+    margin-left: 15.7%;
+    padding: 3%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .avtor{
     flex-direction: column;
+}
+.quote{
+    font-style: italic;
+    padding-top: 3%;
+    font-size: 20px;
+}
+.main_base{
+    border-radius: 20px;
+    width: 70%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 15.7%;
+    padding: 3%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.main_base_foto{
+    display: flex;
+    justify-content: center;
 }
