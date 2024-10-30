@@ -15,8 +15,8 @@ body {
 }
 main{
     display: flex;
-    flex-direction: row-reverse;
     padding-top: 8%;
+    flex-direction: row-reverse;
 }
 body{
     background-color: #ffffff;
@@ -119,14 +119,17 @@ body{
     justify-content: start;
     font-family:'Courier New', Courier, monospace;
 }
+.main_base_info{
+    font-family:'Courier New', Courier, monospace;
+}
 .main_base_foto{
     display: flex;
     justify-content: start;
 }
 .tour_div{
-    justify-content: space-between;
-    margin-bottom: 0%;
-    position: fixed;
+}
+.main_position{
+    flex-direction: row;
 }
 .main_info_style{
     border-radius: 20px;
@@ -156,4 +159,9 @@ hr.divider {
     font-size: 35px;
     margin-right: 10%;
     margin-top: 5%;
+}
+.footer_div{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 7%;
 }
